@@ -19,7 +19,7 @@ ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI) AND ETH) SOCK>0]: %NA
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 
 //Health & Mana Potions
-ItemDisplay[rvl]: %PURPLE%R %PURPLE%70%
+ItemDisplay[rvl]: %PURPLE%R 100%
 ItemDisplay[rvs]: %PURPLE%R %WHITE%35%
 ItemDisplay[hp5]: %RED%&%WHITE%HP
 ItemDisplay[mp5]: %BLUE%&%WHITE%MP
