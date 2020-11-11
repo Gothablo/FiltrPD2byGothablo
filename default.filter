@@ -1,4 +1,4 @@
-// Gothablo Loot Filter ver 1.0.9
+// Gothablo Loot Filter ver 1.2.0
 //
 // twitch.tv/gothabloyt
 // Default filter (don't filter anything!)
@@ -67,20 +67,18 @@ ItemDisplay[imma]: %ORANGE%$$ %DARK_GREEN%Arcane Orb %ORANGE% $$
 ItemDisplay[scou]: %ORANGE%$$ %DARK_GREEN%Orb of Destruction %ORANGE% $$
 ItemDisplay[rera]: %ORANGE%$$ %DARK_GREEN%Horadrim Orb %ORANGE% $$
 ItemDisplay[upma]: %ORANGE%$$ %DARK_GREEN%Angelic Orb %ORANGE% $$
+\\Clone Diablo Items
+ItemDisplay[dcma]: %YELLOW%<> %RED%%NAME%%YELLOW% <>
+ItemDisplay[dcbl]: %YELLOW%<> %RED%%NAME%%YELLOW% <>
+ItemDisplay[dcho]: %YELLOW%<> %RED%%NAME%%YELLOW% <>
+ItemDisplay[dcso]: %YELLOW%<> %RED%%NAME%%YELLOW% <>
 
 ////MAPS////
 //NORM MAP
-ItemDisplay[t16 NMAG]: %WHITE%Ruins of Viz-Jun %RED%** %DARK_GREEN%MAP %RED%**
-ItemDisplay[t17 NMAG]: %WHITE%River of Blood %RED%** %DARK_GREEN%MAP %RED%**
-ItemDisplay[t18 NMAG]: %WHITE%Lava %RED%** %DARK_GREEN%MAP %RED%**
-//MAGIC MAP
-ItemDisplay[t16 MAG]: %BLUE%Ruins of Viz-Jun %RED%** %DARK_GREEN%MAP %RED%**
-ItemDisplay[t17 MAG]: %BLUE%River of Blood %RED%** %DARK_GREEN%MAP %RED%**
-ItemDisplay[t18 MAG]: %BLUE%Lava %RED%** %DARK_GREEN%MAP %RED%**
-//RARE MAP
-ItemDisplay[t16 RARE]: %YELLOW%Ruins of Viz-Jun %RED%** %DARK_GREEN%MAP %RED%**
-ItemDisplay[t17 RARE]: %YELLOW%River of Blood %RED%** %DARK_GREEN%MAP %RED%**
-ItemDisplay[t18 RARE]: %YELLOW%Lava %RED%** %DARK_GREEN%MAP %RED%**
+ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) NMAG]: %WHITE%%NAME% %RED%** %DARK_GREEN%MAP %RED%**
+ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) MAG]: %BLUE%%NAME% %RED%** %DARK_GREEN%MAP %RED%**
+ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) RARE]: %YELLOW%%NAME% %RED%** %DARK_GREEN%MAP %RED%**
+
 
 \\??
 ItemDisplay[wss]: %MAP%%PURPLE%Worldstone Shard
