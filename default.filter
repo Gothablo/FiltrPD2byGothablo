@@ -1,4 +1,4 @@
-// Gothablo Loot Filter ver 1.1.2
+// Gothablo Loot Filter ver 1.1.3
 //
 // twitch.tv/gothabloyt
 // Default filter (don't filter anything!)
@@ -166,13 +166,13 @@ ItemDisplay[gcr CLVL<20]: %PURPLE%~%WHITE%chipped ruby
 ItemDisplay[gcb CLVL<20]: %PURPLE%~%WHITE%chipped sapphire
 ItemDisplay[gcy CLVL<20]: %PURPLE%~%WHITE%chipped topaz
 ItemDisplay[skc CLVL<20]: %PURPLE%~%WHITE%chipped skull
-ItemDisplay[gcv CLVL>21]: 
-ItemDisplay[gcw CLVL>21]: 
-ItemDisplay[gcg CLVL>21]: 
-ItemDisplay[gcr CLVL>21]: 
-ItemDisplay[gcb CLVL>21]: 
-ItemDisplay[gcy CLVL>21]: 
-ItemDisplay[skc CLVL>21]: 
+ItemDisplay[gcv CLVL>20]: 
+ItemDisplay[gcw CLVL>20]: 
+ItemDisplay[gcg CLVL>20]: 
+ItemDisplay[gcr CLVL>20]: 
+ItemDisplay[gcb CLVL>20]: 
+ItemDisplay[gcy CLVL>20]: 
+ItemDisplay[skc CLVL>20]: 
 //Gems Flawed
 ItemDisplay[gfv CLVL<30]: %PURPLE%~%WHITE%flawed amethyst
 ItemDisplay[gfw CLVL<30]: %PURPLE%~%WHITE%flawed diamond
@@ -181,13 +181,13 @@ ItemDisplay[gfr CLVL<30]: %PURPLE%~%WHITE%flawed ruby
 ItemDisplay[gfb CLVL<30]: %PURPLE%~%WHITE%flawed sapphire
 ItemDisplay[gfy CLVL<30]: %PURPLE%~%WHITE%flawed topaz
 ItemDisplay[skf CLVL<30]: %PURPLE%~%WHITE%flawed skull
-ItemDisplay[gfv CLVL>31]:
-ItemDisplay[gfw CLVL>31]:
-ItemDisplay[gfg CLVL>31]:
-ItemDisplay[gfr CLVL>31]:
-ItemDisplay[gfb CLVL>31]:
-ItemDisplay[gfy CLVL>31]:
-ItemDisplay[skf CLVL>31]:
+ItemDisplay[gfv CLVL>30]: 
+ItemDisplay[gfw CLVL>30]: 
+ItemDisplay[gfg CLVL>30]: 
+ItemDisplay[gfr CLVL>30]: 
+ItemDisplay[gfb CLVL>30]: 
+ItemDisplay[gfy CLVL>30]: 
+ItemDisplay[skf CLVL>30]: 
 //Gems Normal
 ItemDisplay[gsv CLVL<70]: %PURPLE%~%WHITE%amethyst
 ItemDisplay[gsw CLVL<70]: %PURPLE%~%WHITE%diamond
@@ -196,13 +196,13 @@ ItemDisplay[gsr CLVL<70]: %PURPLE%~%WHITE%ruby
 ItemDisplay[gsb CLVL<70]: %PURPLE%~%WHITE%sapphire
 ItemDisplay[gsy CLVL<70]: %PURPLE%~%WHITE%topaz
 ItemDisplay[sku CLVL<70]: %PURPLE%~%WHITE%skull
-ItemDisplay[gsv CLVL>71]:
-ItemDisplay[gsw CLVL>71]:
-ItemDisplay[gsg CLVL>71]:
-ItemDisplay[gsr CLVL>71]:
-ItemDisplay[gsb CLVL>71]:
-ItemDisplay[gsy CLVL>71]:
-ItemDisplay[sku CLVL>71]:
+ItemDisplay[gsv CLVL>70]: 
+ItemDisplay[gsw CLVL>70]: 
+ItemDisplay[gsg CLVL>70]: 
+ItemDisplay[gsr CLVL>70]: 
+ItemDisplay[gsb CLVL>70]: 
+ItemDisplay[gsy CLVL>70]: 
+ItemDisplay[sku CLVL>70]: 
 //Gems flawless
 ItemDisplay[gzv]: %ORANGE%>%PURPLE%AMETHYST
 ItemDisplay[glw]: %ORANGE%>%WHITE%DIAMOND
@@ -243,13 +243,13 @@ ItemDisplay[gfrs CLVL<30]: %PURPLE%~%WHITE%flawed ruby
 ItemDisplay[gfbs CLVL<30]: %PURPLE%~%WHITE%flawed sapphire
 ItemDisplay[gfys CLVL<30]: %PURPLE%~%WHITE%flawed topaz
 ItemDisplay[skfs CLVL<30]: %PURPLE%~%WHITE%flawed skull
-ItemDisplay[gfvs CLVL>31]:
-ItemDisplay[gfws CLVL>31]:
-ItemDisplay[gfgs CLVL>31]:
-ItemDisplay[gfrs CLVL>31]:
-ItemDisplay[gfbs CLVL>31]:
-ItemDisplay[gfys CLVL>31]:
-ItemDisplay[skfs CLVL>31]:
+ItemDisplay[gfvs CLVL>31]: 
+ItemDisplay[gfws CLVL>31]: 
+ItemDisplay[gfgs CLVL>31]: 
+ItemDisplay[gfrs CLVL>31]: 
+ItemDisplay[gfbs CLVL>31]: 
+ItemDisplay[gfys CLVL>31]: 
+ItemDisplay[skfs CLVL>31]: 
 //Gems Normal
 ItemDisplay[gsvs CLVL<70]: %PURPLE%~%WHITE%amethyst
 ItemDisplay[gsws CLVL<70]: %PURPLE%~%WHITE%diamond
@@ -258,13 +258,13 @@ ItemDisplay[gsrs CLVL<70]: %PURPLE%~%WHITE%ruby
 ItemDisplay[gsbs CLVL<70]: %PURPLE%~%WHITE%sapphire
 ItemDisplay[gsys CLVL<70]: %PURPLE%~%WHITE%topaz
 ItemDisplay[skus CLVL<70]: %PURPLE%~%WHITE%skull
-ItemDisplay[gsvs CLVL>71]:
-ItemDisplay[gsws CLVL>71]:
-ItemDisplay[gsgs CLVL>71]:
-ItemDisplay[gsrs CLVL>71]:
-ItemDisplay[gsbs CLVL>71]:
-ItemDisplay[gsys CLVL>71]:
-ItemDisplay[skus CLVL>71]:
+ItemDisplay[gsvs CLVL>71]: 
+ItemDisplay[gsws CLVL>71]: 
+ItemDisplay[gsgs CLVL>71]: 
+ItemDisplay[gsrs CLVL>71]: 
+ItemDisplay[gsbs CLVL>71]: 
+ItemDisplay[gsys CLVL>71]: 
+ItemDisplay[skus CLVL>71]: 
 //Gems flawless
 ItemDisplay[gzvs]: %ORANGE%>%PURPLE%AMETHYST
 ItemDisplay[glws]: %ORANGE%>%WHITE%DIAMOND
