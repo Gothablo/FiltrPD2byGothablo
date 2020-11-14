@@ -1,7 +1,8 @@
-// Gothablo Loot Filter ver 1.1.3
+// Gothablo Loot Filter ver 1.2.0
 //
 // twitch.tv/gothabloyt
 // Default filter (don't filter anything!)
+
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
@@ -9,12 +10,22 @@ ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<2000 CLVL>79]:
 
 //More Price Items
-ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 7tk OR 7bk OR 7dg OR 7di OR obb OR obc OR obd OR obe OR ob6 OR ob7 OR ob8 OR ob9) NMAG CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN% $ 
-ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 7tk OR 7bk OR 7dg OR 7di OR obb OR obc OR obd OR obe OR ob6 OR ob7 OR ob8 OR ob9) NMAG ETH CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN% $ 
-ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 7tk OR 7bk OR 7dg OR 7di OR obb OR obc OR obd OR obe OR ob6 OR ob7 OR ob8 OR ob9) MAG CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN% $ 
-ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 7tk OR 7bk OR 7dg OR 7di OR obb OR obc OR obd OR obe OR ob6 OR ob7 OR ob8 OR ob9) RARE CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN% $ 
+ItemDisplay[(ARMOR OR WEAPON) (NMAG !RW CLVL<30 PRICE>9999)]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) (NMAG ETH !RW CLVL<30 PRICE>9999)}]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) (MAG !RW ID OR !ID CLVL<30 PRICE>9999)]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) (RARE !RW ID OR !ID CLVL<30 PRICE>9999)]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
 
-8ss
+ItemDisplay[(ARMOR OR WEAPON) (NMAG !RW CLVL>29 CLVL<55 PRICE>19999)]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) (NMAG ETH !RW CLVL>29 CLVL<55 PRICE>19999)]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) (MAG !RW ID OR !ID CLVL>29 CLVL<55 PRICE>19999)]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) (RARE !RW ID OR !ID CLVL>29 CLVL<55 PRICE>19999)]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
+
+ItemDisplay[(ARMOR OR WEAPON) (NMAG !RW CLVL>54 PRICE>34999)]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) (NMAG ETH !RW CLVL>54 PRICE>34999)]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) (MAG !RW ID OR !ID CLVL>54 PRICE>34999)]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) (RARE !RW ID OR !ID CLVL>54 PRICE>34999)]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
+
+sox
 //Show me number of sockets on ETH AND ID items
 ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI) AND ETH) SOCK>0]: %NAME% %GRAY%ETH %TAN%[%SOCKETS%]
 //Show me number of sockets on ID items
@@ -140,9 +151,9 @@ ItemDisplay[r13s]: %ORANGE%%RUNENAME% 13
 ItemDisplay[r14s]: %ORANGE%%RUNENAME% 14
 ItemDisplay[r15s]: %ORANGE%%RUNENAME% 15
 ItemDisplay[r16s]: %ORANGE%%RUNENAME% 16
-ItemDisplay[r17s]: %DARK_GREEN%* %ORANGE%%RUNENAME% 17%DARK_GREEN% *
-ItemDisplay[r18s]: %DARK_GREEN%* %ORANGE%%RUNENAME% 18%DARK_GREEN% *
-ItemDisplay[r19s]: %DARK_GREEN%* %ORANGE%%RUNENAME% 19%DARK_GREEN% *
+ItemDisplay[r17s]: %MAP%%DARK_GREEN%* %ORANGE%%RUNENAME% 17%DARK_GREEN% *
+ItemDisplay[r18s]: %MAP%%DARK_GREEN%* %ORANGE%%RUNENAME% 18%DARK_GREEN% *
+ItemDisplay[r19s]: %MAP%%DARK_GREEN%* %ORANGE%%RUNENAME% 19%DARK_GREEN% *
 ItemDisplay[r20s]: %MAP%%RED%# %PURPLE%LEM %GREEN%20%RED% #
 ItemDisplay[r21s]: %MAP%%RED%# %PURPLE%PUL %GREEN%21%RED% #
 ItemDisplay[r22s]: %MAP%%RED%## %PURPLE%UM %GREEN%22%RED% ## 
@@ -309,7 +320,7 @@ ItemDisplay[(wsp OR 9ws OR 7ws) (MAG OR RARE) !ETH]: %NAME%
 ItemDisplay[cm3 MAG !ID ILVL>90]: %MAP%%ORANGE%@@%BLUE% %NAME%%ORANGE%[%ORANGE%%ILVL%%ORANGE%]%ORANGE% @@
 ItemDisplay[cm1 MAG !ID]: %MAP%%ORANGE%@@%BLUE% %NAME%%GRAY%[%ILVL%]%ORANGE% @@
 ItemDisplay[cm2 MAG !ID]: %TAN%**%BLUE% %NAME%%GRAY%[%ILVL%]
-ItemDisplay[cm3 MAG !ID]: %MAP%%ORANGE%@@%BLUE% %NAME%%GRAY%[%ILVL%]%ORANGE% @@
+ItemDisplay[cm3 MAG !ID]: %MAP%%ORANGE%@@%BLUE% %NAME%%GRAY%[%ILVL%]%ORANGE% @@%
 ItemDisplay[cm3 MAG ILVL>90]: %NAME% %ORANGE%[%ORANGE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
@@ -401,7 +412,7 @@ ItemDisplay[6cb SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 //Infi/Insi/Pride and Obedience/Doom
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7) (ETH AND (NMAG OR RW)) (SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7vo OR 7tr) (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7 OR 7br OR 7st) (ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7 OR 7br OR) (ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Grief/Beast/Passion
 ItemDisplay[(7cr OR 7wa) (!ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7cr OR 7wa) (!ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%%NAME% %TAN%[%SOCKETS%]
@@ -411,7 +422,7 @@ ItemDisplay[7fb (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%
 ItemDisplay[(7wa OR 7gd) (ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Breath of the Dying/Last Wish
 ItemDisplay[7cr !INF AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7wa OR 7gd OR 7p7) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7wa OR 7gd OR 7p7 OR 7st) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Lawbringer
 ItemDisplay[72h (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Chaos
@@ -427,6 +438,7 @@ ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw 
 //Armors
 ItemDisplay[xtp !ETH AND (NMAG OR RW) SOCK=2]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(xtp OR utp OR uui) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[EQ2 ELT (NMAG OR RW) (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 ELT ETH AND (NMAG OR RW) (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Helmets
 ItemDisplay[(ci3 OR uh9) (!INF AND !ETH) AND (NMAG OR RW) SOCK=3]: %NAME% %TAN%[%SOCKETS%]
