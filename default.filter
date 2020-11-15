@@ -1,6 +1,6 @@
 // Kryszard's PD2 Loot Filter ver 1.2.3 - twitch.tv/kryszard
 /////
-// Edit by Gothablo's  ver 1.2.2
+// Edit by Gothablo's  ver 1.2.4
 // twitch.tv/gothabloyt
 /////
 // For Casual and EndGame Players
@@ -36,8 +36,6 @@ ItemDisplay[NMAG !RW CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTIN
 ItemDisplay[NMAG ETH !RW CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[MAG CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[RARE CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
-
-
 
 
 //Health & Mana Potions
@@ -201,25 +199,25 @@ ItemDisplay[skzs]: %ORANGE%O P SKULL
 
 //Runes
 //Runes
-ItemDisplay[r01]: %TAN%%RUNENAME% 1{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r02]: %TAN%%RUNENAME% 2{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r03]: %TAN%%RUNENAME% 3{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r04]: %TAN%%RUNENAME% 4{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r05]: %TAN%%RUNENAME% 5{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r06]: %TAN%%RUNENAME% 6{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r07]: %TAN%%RUNENAME% 7{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r08]: %TAN%%RUNENAME% 8{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r09]: %TAN%%RUNENAME% 9{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r10]: %TAN%%RUNENAME% 10{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r11]: %ORANGE%%RUNENAME% 11 (AMU){%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r12]: %ORANGE%%RUNENAME% 12 (RING){%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r13]: %ORANGE%%RUNENAME% 13{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r14]: %ORANGE%%RUNENAME% 14{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r15]: %ORANGE%%RUNENAME% 15{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r16]: %ORANGE%%RUNENAME% 16{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r17]: %DARK_GREEN%* %ORANGE%%RUNENAME% 17%DARK_GREEN% *{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r18]: %DARK_GREEN%* %ORANGE%%RUNENAME% 18%DARK_GREEN% *{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r19]: %DARK_GREEN%* %ORANGE%%RUNENAME% 19%DARK_GREEN% *{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r01]: %MAP%%TAN%%RUNENAME% 1{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r02]: %MAP%%TAN%%RUNENAME% 2{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r03]: %MAP%%TAN%%RUNENAME% 3{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r04]: %MAP%%TAN%%RUNENAME% 4{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r05]: %MAP%%TAN%%RUNENAME% 5{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r06]: %MAP%%TAN%%RUNENAME% 6{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r07]: %MAP%%TAN%%RUNENAME% 7{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r08]: %MAP%%TAN%%RUNENAME% 8{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r09]: %MAP%%TAN%%RUNENAME% 9{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r10]: %MAP%%TAN%%RUNENAME% 10{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r11]: %MAP%%ORANGE%%RUNENAME% 11 (AMU){%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r12]: %MAP%%ORANGE%%RUNENAME% 12 (RING){%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r13]: %MAP%%ORANGE%%RUNENAME% 13{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r14]: %MAP%%ORANGE%%RUNENAME% 14{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r15]: %MAP%%ORANGE%%RUNENAME% 15{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r16]: %MAP%%ORANGE%%RUNENAME% 16{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r17]: %MAP%%DARK_GREEN%* %ORANGE%%RUNENAME% 17%DARK_GREEN% *{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r18]: %MAP%%DARK_GREEN%* %ORANGE%%RUNENAME% 18%DARK_GREEN% *{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r19]: %MAP%%DARK_GREEN%* %ORANGE%%RUNENAME% 19%DARK_GREEN% *{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r20]: %MAP%%RED%# %PURPLE%LEM %GREEN%20%RED% #{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r21]: %MAP%%RED%# %PURPLE%PUL %GREEN%21%RED% #{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r22]: %MAP%%RED%## %PURPLE%UM %GREEN%22%RED% ##{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
@@ -236,22 +234,22 @@ ItemDisplay[r32]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%## %PURPLE%CHAM %GREEN%3
 ItemDisplay[r33]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%RED%# %PURPLE%ZOD %GREEN%33%RED% ##%GOLD%###%BLUE%###%YELLOW%###%RED%#{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 
 //Runes Stack
-ItemDisplay[r01s]: %TAN%%RUNENAME% 1{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r02s]: %TAN%%RUNENAME% 2{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r03s]: %TAN%%RUNENAME% 3{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r04s]: %TAN%%RUNENAME% 4{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r05s]: %TAN%%RUNENAME% 5{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r06s]: %TAN%%RUNENAME% 6{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r07s]: %TAN%%RUNENAME% 7{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r08s]: %TAN%%RUNENAME% 8{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r09s]: %TAN%%RUNENAME% 9{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r10s]: %TAN%%RUNENAME% 10{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r11s]: %ORANGE%%RUNENAME% 11 (AMU){%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r12s]: %ORANGE%%RUNENAME% 12 (RING){%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r13s]: %ORANGE%%RUNENAME% 13{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r14s]: %ORANGE%%RUNENAME% 14{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r15s]: %ORANGE%%RUNENAME% 15{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r16s]: %ORANGE%%RUNENAME% 16{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r01s]: %MAP%%TAN%%RUNENAME% 1{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r02s]: %MAP%%TAN%%RUNENAME% 2{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r03s]: %MAP%%TAN%%RUNENAME% 3{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r04s]: %MAP%%TAN%%RUNENAME% 4{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r05s]: %MAP%%TAN%%RUNENAME% 5{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r06s]: %MAP%%TAN%%RUNENAME% 6{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r07s]: %MAP%%TAN%%RUNENAME% 7{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r08s]: %MAP%%TAN%%RUNENAME% 8{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r09s]: %MAP%%TAN%%RUNENAME% 9{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r10s]: %MAP%%TAN%%RUNENAME% 10{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r11s]: %MAP%%ORANGE%%RUNENAME% 11 (AMU){%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r12s]: %MAP%%ORANGE%%RUNENAME% 12 (RING){%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r13s]: %MAP%%ORANGE%%RUNENAME% 13{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r14s]: %MAP%%ORANGE%%RUNENAME% 14{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r15s]: %MAP%%ORANGE%%RUNENAME% 15{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r16s]: %MAP%%ORANGE%%RUNENAME% 16{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r17s]: %MAP%%DARK_GREEN%* %ORANGE%%RUNENAME% 17%DARK_GREEN% *{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r18s]: %MAP%%DARK_GREEN%* %ORANGE%%RUNENAME% 18%DARK_GREEN% *{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r19s]: %MAP%%DARK_GREEN%* %ORANGE%%RUNENAME% 19%DARK_GREEN% *{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
@@ -431,6 +429,8 @@ ItemDisplay[(xrs OR gth OR aar OR BELT OR skp OR xhl OR xrn OR vbt OR xmb OR uvb
 ItemDisplay[((9la OR 7mp OR 6sw OR 6l7 OR 8hx OR 8rx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7ws OR 6cs OR 7b7 OR 7gs OR 9sb) OR (ELT (WP5 OR WP6)) OR 9bw OR ywn OR 7cs OR 7wb OR 7sp) UNI !ID]: %PX-68%%NAME%
 //Sets
 ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
+
+ItemDisplay[(UNI OR SET) !ID]: %DOT-68%%NAME%
 
 
 //Shop Hunting
