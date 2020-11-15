@@ -1,6 +1,6 @@
 // Kryszard's PD2 Loot Filter ver 1.2.3 - twitch.tv/kryszard
 /////
-// Edit by Gothablo's 
+// Edit by Gothablo's  ver 1.2.2
 // twitch.tv/gothabloyt
 /////
 // For Casual and EndGame Players
@@ -22,15 +22,18 @@ ItemDisplay[ETH NMAG]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%%NAME%%CONTINUE%
 ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]
 
 //Show me price of every MAG or RARE weapon/armor after ID
-ItemDisplay[(NMAG OR NMAG ETH OR NMAG SOCK>0) !RW CLVL<24 PRICE>9999]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[NMAG CLVL<24 PRICE>9999]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[NMAG ETH CLVL<24 PRICE>9999]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[MAG CLVL<24 PRICE>9999]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[RARE CLVL<24 PRICE>9999]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
 
-ItemDisplay[(NMAG OR NMAG ETH OR NMAG SOCK>0) !RW CLVL>23 CLVL<45 PRICE>19999]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[NMAG !RW CLVL>23 CLVL<45 PRICE>19999]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[NMAG ETH !RW CLVL>23 CLVL<45 PRICE>19999]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[MAG CLVL>23 CLVL<45 PRICE>19999]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[RARE CLVL>23 CLVL<45 PRICE>19999]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
 
-ItemDisplay[(NMAG OR NMAG ETH OR NMAG SOCK>0) !RW CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[NMAG !RW CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
+ItemDisplay[NMAG ETH !RW CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[MAG CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[RARE CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
 
@@ -118,13 +121,13 @@ ItemDisplay[gsb CLVL>50]:
 ItemDisplay[gsy CLVL>50]: 
 ItemDisplay[sku CLVL>50]: 
 //Gems flawless
-ItemDisplay[gzv]: %PURPLE%O AMETHYST{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glw]: %WHITE%O DIAMOND{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glg]: %DARK_GREEN%O EMERALD{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glr]: %RED%O RUBY{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glb]: %BLUE% OSAPPHIRE{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[gly]: %YELLOW%O TOPAZ{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[skl]: %ORANGE%O SKULL{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[gzv]: %ORANGE%>%PURPLE%O AMETHYST{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glw]: %ORANGE%>%WHITE%O DIAMOND{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glg]: %ORANGE%>%DARK_GREEN%O EMERALD{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glr]: %ORANGE%>%RED%O RUBY{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glb]: %ORANGE%>%BLUE% OSAPPHIRE{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[gly]: %ORANGE%>%YELLOW%O TOPAZ{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[skl]: %ORANGE%>%ORANGE%O SKULL{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
 //Gems Perfect
 ItemDisplay[gpv]: %MAP%%ORANGE%>%PURPLE%O P AMETHYST
 ItemDisplay[gpw]: %MAP%%ORANGE%>%WHITE%O P DIAMOND
@@ -180,13 +183,13 @@ ItemDisplay[gsbs CLVL>71]:
 ItemDisplay[gsys CLVL>71]: 
 ItemDisplay[skus CLVL>71]: 
 //Gems flawless
-ItemDisplay[gzvs]: %PURPLE%O AMETHYST{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glws]: %WHITE%O DIAMOND{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glgs]: %DARK_GREEN%O EMERALD{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glrs]: %RED%O RUBY{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glbs]: %BLUE%O SAPPHIRE{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glys]: %YELLOW%O TOPAZ{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[skls]: %ORANGE%O SKULL{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[gzvs]: %ORANGE%>%PURPLE%O AMETHYST{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glws]: %ORANGE%>%WHITE%O DIAMOND{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glgs]: %ORANGE%>%DARK_GREEN%O EMERALD{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glrs]: %ORANGE%>%RED%O RUBY{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glbs]: %ORANGE%>%BLUE%O SAPPHIRE{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glys]: %ORANGE%>%YELLOW%O TOPAZ{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[skls]: %ORANGE%>%ORANGE%O SKULL{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
 //Gems Perfect
 ItemDisplay[gpvs]: %MAP%%ORANGE%>%PURPLE%O P AMETHYST
 ItemDisplay[gpws]: %MAP%%ORANGE%>%WHITE%O P DIAMOND
@@ -272,8 +275,6 @@ ItemDisplay[cm3 MAG !ID ILVL>90]: %MAP%%ORANGE%@@%BLUE% %NAME%%ORANGE%[%ORANGE%%
 ItemDisplay[cm1 MAG !ID]: %MAP%%ORANGE%@@%BLUE% %NAME%%GRAY%[%ILVL%]%ORANGE% @@
 ItemDisplay[cm2 MAG !ID]: %TAN%**%BLUE% %NAME%%GRAY%[%ILVL%]
 ItemDisplay[cm3 MAG !ID]: %MAP%%ORANGE%@@%BLUE% %NAME%%GRAY%[%ILVL%]%ORANGE% @@
-ItemDisplay[cm3 MAG ILVL>90]: %NAME% %ORANGE%[%ORANGE%%ILVL%%ORANGE%]
-ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
 //Good Charms
 ItemDisplay[cm3 (MAXDMG>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm 
@@ -336,7 +337,7 @@ ItemDisplay[cm3 (TABSK9>0 AND FHR>0)]: %ORANGE%FHR %PURPLE%Light Skiller
 ItemDisplay[cm3 (TABSK10>0 AND FHR>0)]: %ORANGE%FHR %PURPLE%Cold Skiller 
 ItemDisplay[cm3 (TABSK16>0 AND FHR>0)]: %ORANGE%FHR %PURPLE%Curses Skiller 
 ItemDisplay[cm3 (TABSK17>0 AND FHR>0)]: %ORANGE%FHR %PURPLE%P&B Skiller 
-ItemDisplay[cm3 (TABSK18>0 AND FHR>0)]: %ORANGE%FHR %PURPLE%Nec Summon Skiller 
+ItemDisplay[cm3 (TABSK18>0 AND FHR>0)]: %ORANGE%FHR %PURPLE%Nec Summon Skiller  
 ItemDisplay[cm3 (TABSK24>0 AND FHR>0)]: %ORANGE%FHR %PURPLE%Pal Combat Skiller 
 ItemDisplay[cm3 (TABSK25>0 AND FHR>0)]: %ORANGE%FHR %PURPLE%Offens Skiller
 ItemDisplay[cm3 (TABSK26>0 AND FHR>0)]: %ORANGE%FHR %PURPLE%Defens Skiller 
@@ -456,8 +457,8 @@ ItemDisplay[(xlg OR ulg) MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHI
 ItemDisplay[(uvc OR zvb) MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ith %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Belt %WHITE%Craft Recipe:}
 ItemDisplay[(umg OR xmg) MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %BLUE%O %WHITE%+ %ORANGE%Ort %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%HitPower Gloves %WHITE%Craft Recipe:}
 ItemDisplay[uit MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %GREEN%O %WHITE%+ %ORANGE%Nef %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Safety Shield %WHITE%Craft Recipe:}
-ItemDisplay[amu MAG]: %NAME%{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
-ItemDisplay[rin MAG]: %NAME%{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Blood Ring %WHITE%Craft Recipe:}
+ItemDisplay[amu MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
+ItemDisplay[rin MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Blood Ring %WHITE%Craft Recipe:}
 
 //RuneWord Bases
 //Rift
@@ -546,7 +547,6 @@ ItemDisplay[(ush OR xsh) (!INF AND !ETH) AND (NMAG OR RW)  SOCK>1]: %DOT-D6%%NAM
 ItemDisplay[uit !INF AND (NMAG OR RW) (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%
 
 //Class items
-ItemDisplay[(SOR OR STAFF OR WAND OR SCEPTER OR DRU OR BAR OR NEC OR SIN) NMAG CLVL<41]: %NAME% %GRAY%(%TAN%$%WHITE%%PRICE%%GRAY%)
 ItemDisplay[(SOR OR WAND OR (wsp OR 9ws OR 7ws) OR (WP6 AND CL7) OR DRU OR BAR OR NEC OR SIN) (MAG OR RARE) !ID]: %NAME%
 
 //Notes for upgrading
@@ -566,10 +566,10 @@ ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%
 
 //Show me quantitiy of all stackables
-ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
+
 
 //Project Diablo 2 items
-ItemDisplay[wss]: %MAP-4A%%PURPLE%%NAME% %ORANGE%*{%TAN%Note%WHITE%: Use it to %RED%Corrupt %WHITE%an Item}
+ItemDisplay[wss]: %MAP-4A%%PURPLE%%NAME%{%TAN%Note%WHITE%: Use it to %RED%Corrupt %WHITE%an Item}
 ItemDisplay[imra]: %NAME% %ORANGE%*{%WHITE%This Item + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Imbue White to %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[rera]: %NAME% %ORANGE%*{%WHITE%This Item + Perf Gem + %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Reroll %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[upma]: %NAME% %ORANGE%*{%WHITE%This Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Upg %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map:}
