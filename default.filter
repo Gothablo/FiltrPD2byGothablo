@@ -1,6 +1,6 @@
 // Kryszard's PD2 Loot Filter ver 1.2.3 - twitch.tv/kryszard
 /////
-// Edit by Gothablo's  ver 1.2.5 / 15.11.2020 v3
+// Edit by Gothablo's  ver 1.2.7 [18.11.2020]
 // twitch.tv/gothabloyt
 /////
 // For Casual and EndGame Players
@@ -23,17 +23,14 @@ ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]
 
 //Show me price of every MAG or RARE weapon/armor after ID
 ItemDisplay[NMAG CLVL<24 PRICE>9999]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
-ItemDisplay[NMAG ETH CLVL<24 PRICE>9999]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[MAG CLVL<24 PRICE>9999]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[RARE CLVL<24 PRICE>9999]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
 
 ItemDisplay[NMAG !RW CLVL>23 CLVL<45 PRICE>19999]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
-ItemDisplay[NMAG ETH !RW CLVL>23 CLVL<45 PRICE>19999]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[MAG CLVL>23 CLVL<45 PRICE>19999]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[RARE CLVL>23 CLVL<45 PRICE>19999]: %NAME% %TAN%[20k+]%DARK_GREEN%$%CONTINUE%
 
 ItemDisplay[NMAG !RW CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
-ItemDisplay[NMAG ETH !RW CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[MAG CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
 ItemDisplay[RARE CLVL>44 PRICE>34999]: %NAME% %TAN%[35k]%DARK_GREEN%$%CONTINUE%
 
@@ -457,8 +454,10 @@ ItemDisplay[(xlg OR ulg) MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHI
 ItemDisplay[(uvc OR zvb) MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ith %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Belt %WHITE%Craft Recipe:}
 ItemDisplay[(umg OR xmg) MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %BLUE%O %WHITE%+ %ORANGE%Ort %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%HitPower Gloves %WHITE%Craft Recipe:}
 ItemDisplay[uit MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %GREEN%O %WHITE%+ %ORANGE%Nef %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Safety Shield %WHITE%Craft Recipe:}
+ItemDisplay[ring OR amu MAG ILVL>90]: %GRAY%* %BLUE%%NAME% %ORANGE%[%ILVL%]{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
 ItemDisplay[amu MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Caster Amulet %WHITE%Craft Recipe:}
 ItemDisplay[rin MAG]: %GRAY%* %BLUE%%NAME% %GRAY%*{%BLUE%This Item %WHITE%+ Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Note%WHITE%: %ORANGE%Blood Ring %WHITE%Craft Recipe:}
+
 
 //RuneWord Bases
 //Rift
