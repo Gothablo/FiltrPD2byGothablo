@@ -1,6 +1,6 @@
 // Kryszard's PD2 Loot Filter ver 1.2.3 - twitch.tv/kryszard
 /////
-// Edit by Gothablo's  ver 1.2.7 [18.11.2020]
+// Edit by Gothablo's  ver 1.2.9 [20.11.2020]
 // twitch.tv/gothabloyt
 /////
 // For Casual and EndGame Players
@@ -19,7 +19,7 @@ ItemDisplay[ETH MAG]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%%CONTINUE%
 ItemDisplay[ETH NMAG]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%%NAME%%CONTINUE%
 
 //Show me number of sockets of every socketed item
-ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]]%CONTINUE%
+ItemDisplay[SOCK>1]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]
 
 //Show me price of every MAG or RARE weapon/armor after ID
 ItemDisplay[NMAG CLVL<24 PRICE>9999]: %NAME% %TAN%[10k+]%DARK_GREEN%$%CONTINUE%
@@ -225,8 +225,8 @@ ItemDisplay[r26]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%## %PURPLE%VEX %GREEN%26
 ItemDisplay[r27]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%RED%# %PURPLE%OHM %GREEN%27%RED% ##%GOLD%###%BLUE%###%YELLOW%###%RED%#{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r28]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###%RED%### %PURPLE%LO %GREEN%28%RED% ##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r29]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%RED%### %PURPLE%SUR %GREEN%29%RED% ##%GOLD%###%BLUE%###%YELLOW%###%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r30]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%### %PURPLE%BER %GREEN%30%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r31]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%### %PURPLE%JAH %GREEN%31%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r30]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%### %PURPLE%BER %GREEN%30%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r31]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%### %PURPLE%JAH %GREEN%31%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r32]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%## %PURPLE%CHAM %GREEN%32%RED% ##%GOLD%###%BLUE%###%YELLOW%##{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r33]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%### %PURPLE%ZOD %GREEN%33%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 
@@ -260,10 +260,15 @@ ItemDisplay[r26s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%## %PURPLE%VEX %GREEN%2
 ItemDisplay[r27s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%RED%# %PURPLE%OHM %GREEN%27%RED% ##%GOLD%###%BLUE%###%YELLOW%###%RED%#{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r28s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###%RED%### %PURPLE%LO %GREEN%28%RED% ##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r29s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%RED%### %PURPLE%SUR %GREEN%29%RED% ##%GOLD%###%BLUE%###%YELLOW%###%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r30s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%### %PURPLE%BER %GREEN%30%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r31s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%### %PURPLE%JAH %GREEN%31%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r30s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%### %PURPLE%BER %GREEN%30%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r31s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%### %PURPLE%JAH %GREEN%31%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r32s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%## %PURPLE%CHAM %GREEN%32%RED% ##%GOLD%###%BLUE%###%YELLOW%##{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r33s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%### %PURPLE%ZOD %GREEN%33%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+
+
+
+
+
 
 //All Charms
 ItemDisplay[cm3 MAG !ID ILVL>90]: %MAP%%ORANGE%@@%BLUE% %NAME%%ORANGE%[%ORANGE%%ILVL%%ORANGE%]%ORANGE% @@
