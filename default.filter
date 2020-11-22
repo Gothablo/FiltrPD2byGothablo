@@ -1,6 +1,6 @@
 // Kryszard's PD2 Loot Filter ver 1.2.3 - twitch.tv/kryszard
 /////
-// Edit by Gothablo's  ver 1.2.9 [20.11.2020]
+// Edit by Gothablo's  ver 1.2.12 [22.11.2020]
 // twitch.tv/gothabloyt
 /////
 // For Casual and EndGame Players
@@ -223,7 +223,7 @@ ItemDisplay[r24]: %MAP%%RED%##%GOLD%# %PURPLE%IST %GREEN%24%RED% ##%GOLD%#{%TAN%
 ItemDisplay[r25]: %MAP%%RED%##%GOLD%## %PURPLE%GUL %GREEN%25%RED% ##%GOLD%##{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r26]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%## %PURPLE%VEX %GREEN%26%RED% ##%GOLD%###%BLUE%###%YELLOW%##{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r27]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%RED%# %PURPLE%OHM %GREEN%27%RED% ##%GOLD%###%BLUE%###%YELLOW%###%RED%#{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r28]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###%RED%### %PURPLE%LO %GREEN%28%RED% ##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r28]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###%RED%### %PURPLE%LO %GREEN%28%RED% ##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r29]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%RED%### %PURPLE%SUR %GREEN%29%RED% ##%GOLD%###%BLUE%###%YELLOW%###%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r30]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%### %PURPLE%BER %GREEN%30%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r31]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%### %PURPLE%JAH %GREEN%31%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
@@ -258,7 +258,7 @@ ItemDisplay[r24s]: %MAP%%RED%##%GOLD%# %PURPLE%IST %GREEN%24%RED% ##%GOLD%#{%TAN
 ItemDisplay[r25s]: %MAP%%RED%##%GOLD%## %PURPLE%GUL %GREEN%25%RED% ##%GOLD%##{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r26s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%## %PURPLE%VEX %GREEN%26%RED% ##%GOLD%###%BLUE%###%YELLOW%##{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r27s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%RED%# %PURPLE%OHM %GREEN%27%RED% ##%GOLD%###%BLUE%###%YELLOW%###%RED%#{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
-ItemDisplay[r28s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###%RED%### %PURPLE%LO %GREEN%28%RED% ##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
+ItemDisplay[r28s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###%RED%### %PURPLE%LO %GREEN%28%RED% ##%GOLD%###%BLUE%###%YELLOW%###%ORANGE%###%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r29s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%###%RED%### %PURPLE%SUR %GREEN%29%RED% ##%GOLD%###%BLUE%###%YELLOW%###%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r30s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%### %PURPLE%BER %GREEN%30%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%######%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
 ItemDisplay[r31s]: %MAP%%RED%##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%### %PURPLE%JAH %GREEN%31%RED% ##%GOLD%###%BLUE%###%YELLOW%####%ORANGE%####%RED%###{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}
@@ -393,11 +393,11 @@ ItemDisplay[cm3 TABSK48>0]: %PURPLE%Trap Skiller
 ItemDisplay[jew MAG !ID]: %DOT-9A%%TAN%*%WHITE%*   %BLUE%%NAME%%WHITE%   *%TAN%*
 
 //Highlight Good Rare items
-ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%TAN%*%WHITE%*   %YELLOW%%NAME%%WHITE%   *%TAN%*
+ItemDisplay[(jew OR rin OR amu OR EQ7 OR amc) RARE !ID]: %DOT-A8%%TAN%*%WHITE%*   %YELLOW%%NAME%%WHITE%   *%TAN%*
 
 //GG UNIQUES
 ItemDisplay[(ulc OR xea OR uap OR ulm OR ci3 OR xtb OR 7gw OR obf) UNI ETH !ID]: %BORDER-68%%YELLOW%>%TAN%>%GRAY%>     ETH %GOLD%%NAME%%GRAY%     <%TAN%<%YELLOW%<
-ItemDisplay[(rin OR amu OR ulc OR xea OR urn OR uap OR ulm OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf) UNI !ID]: %BORDER-68%%PURPLE%>>%RED%>> %ORANGE%>>  %YELLOW%>>     %GOLD%%NAME%%YELLOW%     <<%ORANGE%   <<%RED%<<%PURPLE%<< 
+ItemDisplay[(rin OR amu OR ulc OR xea OR urn OR uap OR ulm OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR uhm) UNI !ID]: %BORDER-68%%PURPLE%>>%RED%>> %ORANGE%>>  %YELLOW%>>     %GOLD%%NAME%%YELLOW%     <<%ORANGE%   <<%RED%<<%PURPLE%<< 
 //Sacred Armor only below
 ItemDisplay[uar UNI ETH !ID]: %BORDER-68%%YELLOW%>%TAN%>%GRAY%>     ETH %GOLD%%NAME% %DARK_GREEN%Templar %GRAY%     <%TAN%<%YELLOW%<
 ItemDisplay[uar UNI !ID]: %BORDER-68%%PURPLE%>>%RED%>> %ORANGE%>>  %YELLOW%>     %GREEN% %GOLD%%NAME%%YELLOW%     <%ORANGE%  << %RED%<<%PURPLE%<<
@@ -410,7 +410,7 @@ ItemDisplay[(xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%Y
 //gloves
 ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
 //helmets
-ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
+ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
 //boots
 ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
 //shields
@@ -448,6 +448,7 @@ ItemDisplay[WAND CHSK82>0]: %NAME%%NL%%RED%***   %GREEN%Life Tap Charges%RED%   
 //Circlets
 ItemDisplay[EQ7 (MAG OR RARE) !ID]: %NAME%
 ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]
+
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
@@ -504,6 +505,8 @@ ItemDisplay[(7wa OR 7gd OR 7p7 or 7st) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 O
 //Grief/Beast/Passion
 ItemDisplay[(7cr OR 7wa) (!ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%
 ItemDisplay[(7cr OR 7wa) (!ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %DOT-D6%%NAME%
+ItemDisplay[(7cr OR 7wa) (ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%
+ItemDisplay[(7cr OR 7wa) (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %DOT-D6%%NAME%
 //Death/Oath
 ItemDisplay[(7wa OR 7fb OR 7gd) (ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%
 ItemDisplay[7fb (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %DOT-D6%%NAME%
@@ -573,7 +576,7 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%
 
 
 //Project Diablo 2 items
-ItemDisplay[wss]: %MAP-4A%%PURPLE%%NAME%{%TAN%Note%WHITE%: Use it to %RED%Corrupt %WHITE%an Item}
+ItemDisplay[wss]: %MAP-4A%%GREEN%o %PURPLE%%NAME%%GREEN% o{%TAN%Note%WHITE%: Use it to %RED%Corrupt %WHITE%an Item}
 ItemDisplay[imra]: %NAME% %ORANGE%*{%WHITE%This Item + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Imbue White to %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[rera]: %NAME% %ORANGE%*{%WHITE%This Item + Perf Gem + %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Reroll %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[upma]: %NAME% %ORANGE%*{%WHITE%This Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Upg %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map:}
