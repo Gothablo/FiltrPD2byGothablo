@@ -1,6 +1,6 @@
 // Kryszard's PD2 Loot Filter ver 1.5.5 - twitch.tv/kryszard
 /////
-// Edit by Gothablo's  ver 1.3.3 [02.12.2020]
+// Edit by Gothablo's  ver 1.3.4 [03.12.2020]
 // twitch.tv/gothabloyt
 /////
 // For Casual and EndGame Players
@@ -117,21 +117,21 @@ ItemDisplay[gsb CLVL>50]:
 ItemDisplay[gsy CLVL>50]: 
 ItemDisplay[sku CLVL>50]: 
 //Gems flawless
-ItemDisplay[gzv]: %ORANGE%>%PURPLE%O AMETHYST{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glw]: %ORANGE%>%WHITE%O DIAMOND{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glg]: %ORANGE%>%DARK_GREEN%O EMERALD{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glr]: %ORANGE%>%RED%O RUBY{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glb]: %ORANGE%>%BLUE% OSAPPHIRE{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[gly]: %ORANGE%>%YELLOW%O TOPAZ{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[skl]: %ORANGE%>%ORANGE%O SKULL{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[gzv]: %PX-66%%ORANGE%>%PURPLE%O AMETHYST{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glw]: %PX-66%%ORANGE%>%WHITE%O DIAMOND{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glg]: %PX-66%%ORANGE%>%DARK_GREEN%O EMERALD{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glr]: %PX-66%%ORANGE%>%RED%O RUBY{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glb]: %PX-66%%ORANGE%>%BLUE% OSAPPHIRE{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[gly]: %PX-66%%ORANGE%>%YELLOW%O TOPAZ{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[skl]: %PX-66%%ORANGE%>%ORANGE%O SKULL{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
 //Gems Perfect
-ItemDisplay[gpv]: %MAP%%ORANGE%>%PURPLE%O P AMETHYST
-ItemDisplay[gpw]: %MAP%%ORANGE%>%WHITE%O P DIAMOND
-ItemDisplay[gpg]: %MAP%%ORANGE%>%DARK_GREEN%O P EMERALD
-ItemDisplay[gpr]: %MAP%%ORANGE%>%RED%O P RUBY
-ItemDisplay[gpb]: %MAP%%ORANGE%>%BLUE%O P SAPPHIRE
-ItemDisplay[gpy]: %MAP%%ORANGE%>%YELLOW%O P TOPAZ
-ItemDisplay[skz]: %ORANGE%O P SKULL
+ItemDisplay[gpv]: %PX-66%%ORANGE%>%PURPLE%O P AMETHYST
+ItemDisplay[gpw]: %PX-66%%ORANGE%>%WHITE%O P DIAMOND
+ItemDisplay[gpg]: %PX-66%%ORANGE%>%DARK_GREEN%O P EMERALD
+ItemDisplay[gpr]: %PX-66%%ORANGE%>%RED%O P RUBY
+ItemDisplay[gpb]: %PX-66%%ORANGE%>%BLUE%O P SAPPHIRE
+ItemDisplay[gpy]: %PX-66%%ORANGE%>%YELLOW%O P TOPAZ
+ItemDisplay[skz]: %PX-66%%ORANGE%O P SKULL
 
 //Gems Stack
 ItemDisplay[gcvs CLVL<20 ]: %PURPLE%~%WHITE%chipped amethyst
@@ -179,21 +179,21 @@ ItemDisplay[gsbs CLVL>71]:
 ItemDisplay[gsys CLVL>71]: 
 ItemDisplay[skus CLVL>71]: 
 //Gems flawless
-ItemDisplay[gzvs]: %ORANGE%>%PURPLE%O AMETHYST{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glws]: %ORANGE%>%WHITE%O DIAMOND{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glgs]: %ORANGE%>%DARK_GREEN%O EMERALD{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glrs]: %ORANGE%>%RED%O RUBY{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glbs]: %ORANGE%>%BLUE%O SAPPHIRE{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[glys]: %ORANGE%>%YELLOW%O TOPAZ{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
-ItemDisplay[skls]: %ORANGE%>%ORANGE%O SKULL{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[gzvs]: %PX-66%%ORANGE%>%PURPLE%O AMETHYST{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glws]: %PX-66%%ORANGE%>%WHITE%O DIAMOND{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glgs]: %PX-66%%ORANGE%>%DARK_GREEN%O EMERALD{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glrs]: %PX-66%%ORANGE%>%RED%O RUBY{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glbs]: %PX-66%%ORANGE%>%BLUE%O SAPPHIRE{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[glys]: %PX-66%%ORANGE%>%YELLOW%O TOPAZ{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[skls]: %PX-66%%ORANGE%>%ORANGE%O SKULL{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
 //Gems Perfect
-ItemDisplay[gpvs]: %MAP%%ORANGE%>%PURPLE%O P AMETHYST
-ItemDisplay[gpws]: %MAP%%ORANGE%>%WHITE%O P DIAMOND
-ItemDisplay[gpgs]: %MAP%%ORANGE%>%DARK_GREEN%O P EMERALD
-ItemDisplay[gprs]: %MAP%%ORANGE%>%RED%O P RUBY
-ItemDisplay[gpbs]: %MAP%%ORANGE%>%BLUE%O P SAPPHIRE
-ItemDisplay[gpys]: %MAP%%ORANGE%>%YELLOW%O P TOPAZ
-ItemDisplay[skzs]: %ORANGE%O P SKULL
+ItemDisplay[gpvs]: %PX-66%%ORANGE%>%PURPLE%O P AMETHYST
+ItemDisplay[gpws]: %PX-66%%ORANGE%>%WHITE%O P DIAMOND
+ItemDisplay[gpgs]: %PX-66%%ORANGE%>%DARK_GREEN%O P EMERALD
+ItemDisplay[gprs]: %PX-66%%ORANGE%>%RED%O P RUBY
+ItemDisplay[gpbs]: %PX-66%%ORANGE%>%BLUE%O P SAPPHIRE
+ItemDisplay[gpys]: %PX-66%%ORANGE%>%YELLOW%O P TOPAZ
+ItemDisplay[skzs]: %PX-66%%ORANGE%O P SKULL
 
 //Runes
 //Runes
