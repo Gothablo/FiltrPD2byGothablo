@@ -1,6 +1,6 @@
-// Kryszard's PD2 Loot Filter for Season II: ver 1.0.4 - twitch.tv/kryszard
+// Kryszard's PD2 Loot Filter for Season II: ver 1.0.9 - twitch.tv/kryszard
 /////
-// Edit by Gothablo's  ver 1.1.0 [16.03.2021]
+// Edit by Gothablo's  ver 1.1.2 [16.03.2021]
 // twitch.tv/gothabloyt
 /////
 // For Casual and EndGame Players
@@ -61,7 +61,7 @@ ItemDisplay[isc CLVL<31]: %RED%* %GRAY%id %WHITE%scroll
 ItemDisplay[vps CLVL<31]: %GREEN%!%WHITE%stamina
 ItemDisplay[wms CLVL<31]: %GREEN%!%WHITE%thaw
 ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>30]:
-ItemDisplay[yps]: %GREEN%!%WHITE%ant
+ItemDisplay[yps]: %GREEN%!%WHITE%A
 ItemDisplay[key]: %GRAY%key%CONTINUE%
 
 //Arrows & Bolts
@@ -196,7 +196,7 @@ ItemDisplay[skzs]: %PX-66%%ORANGE%O P SKULL%CONTINUE%
 
 //Runes
 ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) (CLVL>1 AND CLVL<80)]: %PX-62%%ORANGE%%RUNENAME% %GREEN%%RUNENUM%%CONTINUE%
-ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) (CLVL=1 OR CLVL>79)]: %ORANGE%%RUNENAME% %GREEN%%RUNENUM%%CONTINUE%
+ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) (CLVL=1 OR CLVL>79)]: %PX-62%%ORANGE%%RUNENAME% %GREEN%%RUNENUM%%CONTINUE%
 ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %PX-62%%TAN%*  %ORANGE%%RUNENAME% Rune %GREEN%%RUNENUM%%TAN%  *%CONTINUE%
 ItemDisplay[RUNE>19 AND RUNE<26]: %DOT-62%%RED%*     %ORANGE%%RUNENAME% Rune %GREEN%%RUNENUM%%RED%     *%CONTINUE%
 ItemDisplay[RUNE>25]: %BORDER-62%%NL%%GREEN%*%PURPLE%*%RED%*          %ORANGE%%RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]%RED%          *%PURPLE%*%GREEN%*%CONTINUE%
@@ -439,7 +439,7 @@ ItemDisplay[amu MAG]: %NAME%{%WHITE%HP: Perf %BLUE%O%ORANGE%, Thul %WHITE%| S: P
 ItemDisplay[rin MAG]: %NAME%{%WHITE%HP: Perf %BLUE%O%ORANGE%, Amn %WHITE%| S: Perf %GREEN%O%ORANGE%, Amn%NL%%WHITE%B: Perf %RED%O%ORANGE%, Sol%WHITE% | C: Perf %PURPLE%O%ORANGE%, Amn%NL%Craft Recipes: %BLUE%Jewel,}
 
 //Class items
-ItemDisplay[(SOR OR WAND OR SCEPTER OR STAFF OR DRU OR BAR OR NEC OR (SIN !(NORM OR 9ar OR 9wb OR 9xf))) NMAG]: %NAME% %GRAY%(%TAN%$%WHITE%%GRAY%)%CONTINUE%
+ItemDisplay[(SOR OR WAND OR SCEPTER OR STAFF OR DRU OR BAR OR NEC OR (SIN !(NORM OR 9ar OR 9wb OR 9xf))) NMAG]: %NAME%%CONTINUE%
 ItemDisplay[(SOR OR WAND OR (wsp OR 9ws OR 7ws) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR DRU OR BAR OR NEC OR (SIN !(NORM OR 9ar OR 9wb OR 9xf))) (MAG OR RARE) !ID]: %NAME%
 
 //Show me exactly +SKILLS values on NMAG items
@@ -1326,7 +1326,7 @@ ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%
 
 //Project Diablo 2 items
-ItemDisplay[wss]: %MAP-0A%%NAME% %ORANGE%*{%RED%Warning%WHITE%: It can Brick your Item/Map%NL%%TAN%Note%WHITE%: Use it to %RED%Corrupt %WHITE%Item/Map:}
+ItemDisplay[wss]: %MAP-4A%%GREEN%o %PURPLE%%NAME%%GREEN% o{%RED%Warning%WHITE%: It can Brick your Item/Map%NL%%TAN%Note%WHITE%: Use it to %RED%Corrupt %WHITE%Item/Map:}
 ItemDisplay[scrb]: %BORDER-A9%%NAME% %ORANGE%*{%RED%Group Dungeon%NL%%TAN%Note%WHITE%: Cube it with %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map to Make:}
 ItemDisplay[imra]: %NAME% %ORANGE%*{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Imbue White Map to %YELLOW%Rare%WHITE%:}
 ItemDisplay[rera]: %NAME% %ORANGE%*{%YELLOW%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perf Gem + %ORANGE%Rune>9%NL%%TAN%Note%WHITE%: Reroll %YELLOW%Rare %WHITE%Map:}
